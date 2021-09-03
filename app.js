@@ -8,7 +8,7 @@ indexNumber = (array) => {
 }
 
 phraseGenerator = () => {
-    return adverb[indexNumber(adverb)] + " " + verb[loopverbi] + " " + noun[loopNouni] + " " + timeFrame[loopTimeFramei] + "!";
+    return adverb[indexNumber(adverb)] + " " + verb[indexNumber(verb)] + " " + noun[indexNumber(noun)] + " " + timeFrame[indexNumber(timeFrame)] + "!";
 }
 
 console.log(phraseGenerator());
